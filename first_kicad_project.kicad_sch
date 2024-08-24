@@ -1,5 +1,54 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1e941f95-b902-4f9c-81d4-7a7e9371e8d4")
+	(paper "A3")
+	(title_block
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 245.11 95.25)
+		(size 95.25 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17d3eeaf-3cd0-447c-b933-9929d6a4f287")
+		(property "Sheetname" "NRF52840_sheet"
+			(at 245.11 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 245.11 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "first_kicad_project"
+				(path "/1e941f95-b902-4f9c-81d4-7a7e9371e8d4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "Root")
+		)
+	)
 )
